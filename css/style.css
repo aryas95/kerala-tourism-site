@@ -55,10 +55,31 @@ width: 10%;
 
 /* landing */
 .landing-bg{
-    background-image: url(../image/landing.jpg);
-    min-height: 650px;
-    background-size: cover;
+    /* background-image: url(../image/landing.jpg); */
+    /* min-height: 100vh; */
+    
+    background: radial-gradient(circle, rgba(34,193,195,0.8267682072829132) 4%, rgba(253,187,45,0.6418942577030813) 81%), url(../image/landing.jpg) center center fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  overflow: hidden;
+   
+}
+.landpage{
+    margin-top: 10%;
+}
+.landpage-txt{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+
+}
+.landpage-desc{
+    text-align: center;
+    color: white;
+    font-style: oblique;
 }
 
 /* home page */
@@ -263,12 +284,13 @@ padding: 50px;
 .mt-neg{
     margin-top: -40%;
 }
-.form-container{
-position: absolute;
+ .form-container{
+/* position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-50%,-50%);
-}
+transform: translate(-50%,-50%); */
+float: left;
+} 
 .btn-login {
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
