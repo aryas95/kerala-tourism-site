@@ -1,0 +1,286 @@
+
+*{
+    padding: 0;
+    border: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+    
+.m-top{
+    margin-top: 100px;
+    }
+.m-top-h{
+margin-top: 50px;
+}
+
+.p-custom{
+    padding: 30px;
+}
+.line{
+border: 2px solid rgb(126, 199, 126);
+border-radius: 50px;
+width: 10%;
+}
+ .my-nav{
+     background-color: rgb(212 233 208 / 70%) !important;
+ }
+ /* @media only screen and (max-width:800px) {
+    .my-nav{
+        background-color: white !important
+    }
+ } */
+.my-nav ul li{
+    margin-right: 35px !important;
+    text-transform: uppercase;
+    font-family: 'Ramaraja', serif;
+    font-size: 1rem;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#1c501c;
+}
+
+.navbar-brand img{
+    margin-left: 35px !important;
+    width: 90px;
+}
+.dropdown-menu{
+    background-color: rgb(212 233 208 / 70%) !important;
+}
+.dropdown-menu a:hover{
+    background-color: rgba(92, 121, 54, 0.6);
+    color: white;
+
+}
+
+/* landing */
+.landing-bg{
+    background-image: url(../image/landing.jpg);
+    min-height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* home page */
+.my-caption{
+    font-family: 'Bungee', cursive;
+    top: 30%;
+    text-transform: capitalize;
+}
+.my-caption p{
+
+}
+.home-bg{
+   background-color: #e2fdf5;
+
+}
+.top-dest-container
+    {
+
+    }
+      
+
+.top-dest-text{
+    
+    bottom: 0;
+    background: rgb(84 139 11 / 60%);  
+    color: black;
+    padding:0; 
+    
+}
+/* @media only screen and (max-width:768px) {
+    .my-nav{
+        text-align: center;
+        text-align: justify;
+    }
+  }  */
+.navbar-toggler-icon{
+  
+}
+#carousel-cover-image img{
+   
+}
+/* .form-container{
+background-color:lightblue;
+left      : 50%;
+top       : 50%;
+ position  : absolute; 
+transform : translate(-50%, -50%); 
+width: 40%; 
+padding: 50px;
+} */
+
+/* trivandrum page */
+/* body{
+    background-color: rgb(167, 211, 211);
+} */
+
+.bg-tvm{
+    background-image: url(../image/tvm/palace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    background-position: 2px;
+}
+.breadcrumb{
+    top: 72%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: none;
+    /* background-color: rgb(3, 3, 3,.7); */
+    padding:1;
+    margin: 0;
+    display: flex;
+    font-weight: 500;
+    color: white;
+   
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* .dist-name{
+     top: 62%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;   
+    background-color: rgba(000,000,000,.5); 
+    
+} */
+.dist-name{
+    font-size: 3rem;
+    background-color:  rgba(000,000,000,.5);
+    color: #e2fdf5;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+   
+}
+@media only screen and (max-width: 800px) {
+    .dist-name{
+        font-size: 2rem;   
+    }
+  } 
+  .m-neg{
+    margin-top: -40px;
+}
+  @media only screen and (max-width: 800px) {
+    .m-neg{
+        margin-top: -25px;
+        
+    }
+  }  
+.about-dist{
+    padding: 50px;
+    width: 50%;
+}
+@media only screen and (max-width: 912px) {
+    .about-dist{
+        padding: 0px;
+        width: 100%;
+    }
+  } 
+    
+.about-dist p:first-child:first-letter {
+    color: #000;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+
+/* footer */
+.footer-div{
+   padding: 50px;
+   text-align: center;
+   background-color: rgb(56, 56, 56);
+   color: white;
+}
+
+/* idukki */
+   .bg-idk
+   {
+    background-image: url(../image/idukki/bg-idk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    background-position: 2px;
+}
+
+/* thrissur */
+.bg-tsr{
+    background-image: url(../image/trissur/Thrissur-Pooram.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    background-position: 2px;
+}
+
+
+/* district */
+.bg-dist{
+    background-image: url(../image/dist-page/dist-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transform: scaleX(-1);
+    
+}
+/* wayanad */
+.bg-wynd{
+    background-image: url(../image/wayanad/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    background-position: 1px;
+    
+}
+/* malappuram */
+.bg-mlp{
+    background-image: url(../image/malappuram/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    
+}
+
+/* form */
+.mt-neg{
+    margin-top: -40%;
+}
+.form-container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }
