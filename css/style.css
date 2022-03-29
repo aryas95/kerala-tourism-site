@@ -15,13 +15,30 @@ margin-top: 50px;
 .p-custom{
     padding: 30px;
 }
+
+@media only screen and (min-width:1200px){
+    .navbar{
+        z-index:9; 
+       }
+       #carousel-cover-image,.landing-bg{
+         position:absolute;
+         width:100%;
+         top:0;
+       }
+    .model-container{
+        margin-top: 600px;
+    }
+}
+
+
 .line{
 border: 2px solid rgb(126, 199, 126);
 border-radius: 50px;
 width: 10%;
 }
  .my-nav{
-     background-color: rgb(212 233 208 / 70%) !important;
+     background-color: rgba(91 131 6 / 50%) !important;
+     
  }
  /* @media only screen and (max-width:800px) {
     .my-nav{
@@ -33,17 +50,25 @@ width: 10%;
     text-transform: uppercase;
     font-family: 'Ramaraja', serif;
     font-size: 1rem;
+    font-weight: 600;
+    
     
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color:#1c501c;
+.navbar-light .navbar-nav .nav-link  {
+  color: black;
 }
 
 .navbar-brand img{
-    margin-left: 35px !important;
-    width: 90px;
+    /* margin-left: 35px !important; */
+    /* width: 90px; */
+    
 }
+  @media only screen and (max-width:756px) {
+    .navbar-brand img{
+        max-width: 150px;
+    }
+ } 
 .dropdown-menu{
     background-color: rgb(212 233 208 / 70%) !important;
 }
@@ -53,6 +78,9 @@ width: 10%;
 
 }
 
+.my-index-nav{
+    background-color: transparent !important;
+}
 /* landing */
 .landing-bg{
     /* background-image: url(../image/landing.jpg); */
@@ -118,9 +146,7 @@ width: 10%;
 .navbar-toggler-icon{
   
 }
-#carousel-cover-image img{
-   
-}
+
 /* .form-container{
 background-color:lightblue;
 left      : 50%;
@@ -255,9 +281,9 @@ padding: 50px;
     background-image: url(../image/dist-page/dist-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
-    transform: scaleX(-1);
+    background-position: 1px;
     
 }
 /* wayanad */
@@ -279,6 +305,9 @@ padding: 50px;
     width: 100%;
     
 }
+.dist-img-card img{
+max-height: 300px;
+}
 
 /* form */
 .mt-neg{
@@ -297,12 +326,109 @@ float: left;
     padding: 0.75rem 1rem;
   }
   
-  .btn-google {
-    color: white !important;
-    background-color: #ea4335;
-  }
-  
-  .btn-facebook {
-    color: white !important;
-    background-color: #3b5998;
-  }
+ 
+
+
+
+  /* signup form */
+  .signup-form .card {
+    border: 0;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.signup-form .padding {
+    padding: 3rem !important
+}
+
+
+.signup-form h5.card-title {
+    font-size: 2rem
+}
+
+.signup-form .fw-400 {
+    font-weight: 400 !important
+}
+
+.signup-form .card-title {
+    /* font-family: Roboto, sans-serif; */
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding: 15px 20px;
+    /* border-bottom: 1px solid rgba(77, 82, 89, 0.07) */
+}
+
+.signup-form .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 3.25rem;
+    padding-top: 1px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 1rem
+}
+
+.signup-form .form-control {
+    border-color: #ebebeb;
+    border-radius: 2px;
+    color: #8b95a5;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: inherit;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear
+}
+
+.signup-form .card-body>*:last-child {
+    margin-bottom: 0
+}
+
+
+/* .signup-form .btn-bold {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px
+} */
+
+
+
+.signup-form .btn:hover {
+    cursor: pointer
+}
+
+.signup-form .form-control:focus {
+    border-color: #83e0d7;
+    color: #4d5259;
+    -webkit-box-shadow: 0 0 0 0.1rem rgba(51, 202, 187, 0.15);
+    box-shadow: 0 0 0 0.1rem rgba(51, 202, 187, 0.15)
+}
+
+.signup-form .custom-radio {
+    cursor: pointer
+}
+
+.signup-form .custom-control {
+    display: -webkit-box;
+    display: flex;
+    min-width: 18px
+}
+.signup-form{
+    
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 300px) {
+    .signup-form{
+        padding:0;
+        margin: 0;
+    }
+  } 
