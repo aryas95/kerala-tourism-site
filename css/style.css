@@ -4,7 +4,7 @@
     border: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
-    
+
 .m-top{
     margin-top: 100px;
     }
@@ -51,13 +51,19 @@ width: 10%;
     font-family: 'Ramaraja', serif;
     font-size: 1rem;
     font-weight: 600;
-    
+   
     
 }
 
-.navbar-light .navbar-nav .nav-link  {
-  color: black;
+
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+  }
 
 .navbar-brand img{
     /* margin-left: 35px !important; */
@@ -113,7 +119,7 @@ width: 10%;
 /* home page */
 .my-caption{
     font-family: 'Bungee', cursive;
-    top: 30%;
+    top: 35%;
     text-transform: capitalize;
 }
 .my-caption p{
@@ -170,20 +176,10 @@ padding: 50px;
     width: 100%;
     background-position: 2px;
 }
-.breadcrumb{
-    top: 72%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    background: none;
-    /* background-color: rgb(3, 3, 3,.7); */
-    padding:1;
-    margin: 0;
-    display: flex;
-    font-weight: 500;
-    color: white;
-   
-}
+ .breadcrumb{
+    
+   background: transparent;
+} 
 .breadcrumb a{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -227,6 +223,7 @@ padding: 50px;
 .about-dist{
     padding: 50px;
     width: 50%;
+    
 }
 @media only screen and (max-width: 912px) {
     .about-dist{
@@ -305,10 +302,9 @@ padding: 50px;
     width: 100%;
     
 }
-.dist-img-card img{
-max-height: 300px;
+.card-img-top{
+    height: 250px;
 }
-
 /* form */
 .mt-neg{
     margin-top: -40%;
