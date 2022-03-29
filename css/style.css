@@ -40,11 +40,7 @@ width: 10%;
      background-color: rgba(91 131 6 / 50%) !important;
      
  }
- /* @media only screen and (max-width:800px) {
-    .my-nav{
-        background-color: white !important
-    }
- } */
+ 
 .my-nav ul li{
     margin-right: 35px !important;
     text-transform: uppercase;
@@ -56,8 +52,6 @@ width: 10%;
 }
 
 
-
-
 .navbar-light .navbar-nav .nav-link {
   color: #000;
 }
@@ -65,11 +59,7 @@ width: 10%;
     color: white;
   }
 
-.navbar-brand img{
-    /* margin-left: 35px !important; */
-    /* width: 90px; */
-    
-}
+
   @media only screen and (max-width:756px) {
     .navbar-brand img{
         max-width: 150px;
@@ -89,8 +79,7 @@ width: 10%;
 }
 /* landing */
 .landing-bg{
-    /* background-image: url(../image/landing.jpg); */
-    /* min-height: 100vh; */
+   
     
     background: radial-gradient(circle, rgba(34,193,195,0.8267682072829132) 4%, rgba(253,187,45,0.6418942577030813) 81%), url(../image/landing.jpg) center center fixed;
     background-repeat: no-repeat;
@@ -122,18 +111,12 @@ width: 10%;
     top: 35%;
     text-transform: capitalize;
 }
-.my-caption p{
 
-}
 .home-bg{
    background-color: #e2fdf5;
 
 }
-.top-dest-container
-    {
-
-    }
-      
+ 
 
 .top-dest-text{
     
@@ -143,30 +126,12 @@ width: 10%;
     padding:0; 
     
 }
-/* @media only screen and (max-width:768px) {
-    .my-nav{
-        text-align: center;
-        text-align: justify;
-    }
-  }  */
+
 .navbar-toggler-icon{
   
 }
 
-/* .form-container{
-background-color:lightblue;
-left      : 50%;
-top       : 50%;
- position  : absolute; 
-transform : translate(-50%, -50%); 
-width: 40%; 
-padding: 50px;
-} */
 
-/* trivandrum page */
-/* body{
-    background-color: rgb(167, 211, 211);
-} */
 
 .bg-tvm{
     background-image: url(../image/tvm/palace.jpg);
@@ -184,19 +149,7 @@ padding: 50px;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-/* .dist-name{
-     top: 62%;
-    left: 50%;
-    position:absolute;
-    transform: translate(-50%,-50%);
-    color: white;
-    letter-spacing: 1rem;
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: bolder;   
-    background-color: rgba(000,000,000,.5); 
-    
-} */
+
 .dist-name{
     font-size: 3rem;
     background-color:  rgba(000,000,000,.5);
@@ -310,10 +263,7 @@ padding: 50px;
     margin-top: -40%;
 }
  .form-container{
-/* position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%); */
+
 float: left;
 } 
 .btn-login {
@@ -386,12 +336,6 @@ float: left;
 }
 
 
-/* .signup-form .btn-bold {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 12px
-} */
 
 
 
