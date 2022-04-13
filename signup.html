@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/fonts.css">
 </head>
-<body class="home-bg">
-  
+<body>
+  <div class="signup-bg">
      <!-- navbar starts -->
-     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light my-nav">
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light my-index-nav my-nav">
           <div><a class="navbar-brand img-responsive" href="home.html">
               <img src="./image/logo.png" alt=""></a></div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,30 +85,43 @@
             
         </form>
     </div> -->
+    
 <div class="signup-form">
-    <div class="page-content page-container" id="page-content">
-      <div class="padding">
-          <div class="row container d-flex justify-content-center">
-              <div class="col-md-6 col-lg-4">
-                  <form class="card">
-                      <h5 class="card-title fw-400">Sign Up</h5>
-                      <div class="card-body">
-                          <div class="form-group"> <input class="form-control" type="text" placeholder="Email"> </div>
-                          <div class="form-group"> <input class="form-control" type="password" placeholder="Password"> </div>
-                          <div class="form-group"> <input class="form-control" type="password" placeholder="Confirm Password"> </div> <button class="btn btn-block btn-bold btn-success">Sign Up</button>
-                          <div class="text-center">
-                            <p class="pt-2">Already registered ? <a href="index.html "> login now</a></p>
-                        </div>
+  <div class="page-content page-container" id="page-content">
+   
+        <div class="row container d-flex">
+            <div class="col-md-6 col-lg-6 mx-auto my-auto">
+                <form class="card" action="index.html" id="signupform">
+                    <h5 class="card-title">Sign Up</h5>
+                    <div class="card-body">
+                        <div class="form-group"> 
+                          
+                          <input class="form-control" type="text" placeholder="Fullname" id="fullname"></div>
+                        <div class="error"></div>
+                        <div class="form-group"> <input class="form-control" type="text" placeholder="Email" id="email"></div>
+                        <div class="error"></div>
+                        <div class="form-group"> <input class="form-control" type="phone" placeholder="phone no" id="phone"></div>
+                        <div class="error"></div>
+                        <div class="form-group"> 
+                        <input class="form-control" name="password" id="password" type="password" placeholder="Password" onkeyup="passwordChanged();" />
+                        <span id="strength" style="color: darkgray;">Password Strength</span>
+                        <div class="error"></div>
+                        <div class="form-group"> <input class="form-control" type="password" placeholder="Confirm Password" id="password2"></div>
+                        <div class="error"></div>
+                        <button class="btn btn-block btn-bold btn-success" type="submit">Sign Up</button>
+                        <div class="text-center">
+                          <p class="pt-2">Already registered ? <a href="index.html "> login now</a></p>
                       </div>
-                  </form>
-              </div>
-          </div>
-      </div>
-  </div>
-  </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+</div>
+</div>
+</div>
 
-
-
+<script src="./js/signupform.js"></script>
 <script src="./bootstrap/bootstrap-4.6.1-dist/jquery-3.6.0.slim.min.js"></script>
 <script src="./bootstrap/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
 <script src="./bootstrap/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>  
