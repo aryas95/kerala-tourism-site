@@ -83,7 +83,6 @@ width: 10%;
 .signup-bg{
     
     background: radial-gradient(circle, rgba(223, 240, 162, 0.827) 4%, rgba(172, 243, 248, 0.692) 81%), url(../image/signup-bg.jpg) center center fixed;
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
   overflow: hidden;
@@ -298,7 +297,7 @@ float: left;
 }
 
 .signup-form .padding {
-    padding: 3rem !important
+    /* padding: 3rem !important */
 }
 
 
@@ -372,8 +371,8 @@ float: left;
 .signup-form{
     
     text-align: center;
-     margin-top: 3.5%; 
-    margin-left: 8%;
+     margin-top: 1.5%; 
+    margin-left: 8%; 
 }
 
 @media only screen and (max-width: 300px) {
