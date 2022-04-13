@@ -136,9 +136,6 @@ width: 10%;
     
 }
 
-.navbar-toggler-icon{
-  
-}
 
 
 
@@ -296,9 +293,6 @@ float: left;
     transition: .5s
 }
 
-.signup-form .padding {
-    /* padding: 3rem !important */
-}
 
 
 .signup-form h5.card-title {
