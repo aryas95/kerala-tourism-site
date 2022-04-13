@@ -90,4 +90,3 @@ function passwordChanged() {
             strength.innerHTML = '<span style="color:red">Weak!</span>';
         }
 }
-
